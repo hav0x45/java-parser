@@ -3,6 +3,5 @@
 ## Quick Start
 
 ```console
-javac Main.java # optional
 ./main.py
 ```
