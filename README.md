@@ -3,6 +3,9 @@
 ## Quick Start
 
 ```console
-javac Main.java # Compile the program and create Main.class
-Run the program using ./main.py
+# Compile the program to create Main.class
+javac Main.java
+
+# Run the program with:
+./main.py
 ```
