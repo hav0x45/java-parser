@@ -1,11 +1,14 @@
 # JVM Bytecode Parser in Python
 
-## Coded with the help of Tsoding Daily's videos. 
-## So don't give me too much credit for it, I've just done some modifications.
+### Coded with the help of Tsoding Daily's videos. 
+### Don't give me too much credits.
 
 ### Quick Start
 
 ```console
+# Git clone the repository
+git clone https://github.com/hav0x45/java-parser.git
+
 # Compile the program to create Main.class
 javac Main.java
 
