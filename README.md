@@ -1,7 +1,6 @@
 # JVM Bytecode Parser in Python
 
-### Coded with the help of Tsoding Daily's videos. 
-### Don't give me too much credits.
+## Coded with the help of Tsoding Daily's videos. 
 
 ### Quick Start
 
