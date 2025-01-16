@@ -12,4 +12,5 @@ javac Main.java
 ./main.py
 ```
 Dependencies: jre-openjdk
+
 That's it!
