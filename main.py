@@ -67,9 +67,9 @@ def parse_attributes(f, count):
 def parse_class_file(file_path):
     with open(file_path, "rb") as f:
         clazz = {}
-        clazz['magic'] = hex(int.from_bytes(f.read(4), 'big'))
-        clazz['minor'] = int.from_bytes(f.read(2), 'big')
-        clazz['major'] = int.from_bytes(f.read(2), 'big')
+        clazz['magic'] = hex(parse_u4(f))
+        clazz['minor'] = parse_u2(f)
+        clazz['major'] = parse_u2(f)
         constant_pool_count = parse_u2(f)
         constant_pool = []
         for i in range(constant_pool_count-1):
